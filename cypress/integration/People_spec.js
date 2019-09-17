@@ -34,7 +34,7 @@ describe('People API Testing with Cypress', () => {
      })
      
      it('Validate the field type of Planet ', () => {
-        result = cy.request('/planets/1')
+        result = cy.request('/people/1')
        
         result
             .its('body')
